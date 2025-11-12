@@ -20,7 +20,7 @@ const skillsData = [
 const Skills = () => {
   return (
     <section id="skills" className="py-20">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 w-5/6">
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}

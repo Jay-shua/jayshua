@@ -44,7 +44,7 @@ const About = () => {
             viewport={{ once: true }}
           />
           <motion.p
-            className="text-lg max-w-2xl"
+            className="text-lg max-w-2xl lg:text-justify text-justify"
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}

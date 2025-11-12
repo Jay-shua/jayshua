@@ -27,7 +27,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-20">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 w-5/6">
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -89,8 +89,9 @@ const Contact = () => {
           </button>
         </form>
         {showConfetti && <Confetti />}
-        <div className="mt-8 text-center flex flex-row gap-x-3 justify-center items-center">
-          <a href="mailto:jayshua.designs@gmail.com" className="block mb-2">
+        <div className="mt-8 text-center">
+          <div className="flex flex-row gap-x-3 justify-center items-center">
+            <a href="mailto:jayshua.designs@gmail.com" className="block mb-2">
             jayshua.designs@gmail.com
           </a>
           <a
@@ -109,6 +110,8 @@ const Contact = () => {
           >
             LinkedIn
           </a>
+          </div>
+          
           <a
             href="/src/assets/resume.pdf"
             download
