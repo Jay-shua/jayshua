@@ -113,7 +113,7 @@ const Contact = () => {
           </div>
           
           <a
-            href="/src/assets/resume.pdf"
+            href="/assets/resume.pdf"
             download
             className="inline-block px-6 py-3 bg-earth-brown text-white rounded-full"
           >
