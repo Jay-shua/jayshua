@@ -36,7 +36,7 @@ const About = () => {
         </motion.h2>
         <div className="flex flex-col md:flex-row items-center gap-8 justify-center w-5/6 mx-auto">
           <motion.img
-            src="/assets/profile-placeholder.jpg"
+            src="/src/assets/profile-placeholder.jpg"
             alt="Atoro-Tywo Oluwasemilore"
             className="w-64 h-64 rounded-full object-cover shadow-lg"
             initial={{ opacity: 0, x: -50 }}
