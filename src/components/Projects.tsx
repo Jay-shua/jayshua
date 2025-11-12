@@ -10,7 +10,7 @@ const projects = [
     tech: ["ReactJS", "Tailwind CSS", "JavaScript"],
     live: "https://ronniesgarden.vercel.app/",
     github: "https://github.com/Jay-shua/Ronnies-Garden", // placeholder
-    image: "/src/assets/project1-screenshot.png",
+    image: "/assets/project1-screenshot.png",
   },
   {
     title: "Charity: Water Clone",
@@ -19,7 +19,7 @@ const projects = [
     tech: ["HTML", "CSS", "JavaScript"],
     live: "https://jay-shua.github.io/charity_water_clone/",
     github: "https://github.com/Jay-shua/charity_water_clone",
-    image: "/src/assets/project2-screenshot.png",
+    image: "/assets/project2-screenshot.png",
   },
   {
     title: "Omodee Photography",
@@ -28,7 +28,7 @@ const projects = [
     tech: ["HTML", "CSS", "JavaScript"],
     live: "https://jay-shua.github.io/omodee_photography/",
     github: "https://github.com/Jay-shua/omodee_photography",
-    image: "/src/assets/project3-screenshot.jpg",
+    image: "/assets/project3-screenshot.jpg",
   },
   {
     title: "Tip Calculator App",
@@ -37,7 +37,7 @@ const projects = [
     tech: ["HTML", "CSS", "JavaScript"],
     live: "https://jay-shua.github.io/tipcalculator/",
     github: "https://github.com/Jay-shua/tipcalculator",
-    image: "/src/assets/project4-screenshot.jpg",
+    image: "/assets/project4-screenshot.jpg",
   },
 ];
 
